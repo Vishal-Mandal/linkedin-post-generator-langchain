@@ -1,10 +1,10 @@
-# LinkedIn Post Studio 🚀
+# LinkedIn Post Studio 
 
 An AI-powered dashboard that generates contextually rich LinkedIn posts, processes visual media, displays them in a real-time feed preview, and publishes them directly to your personal LinkedIn profile using LangChain, Google Gemini APIs, and LinkedIn APIs.
 
 ---
 
-## ⚡ Features
+##  Features
 
 1. **AI Post Generation (LangChain + Gemini):** Generates engaging LinkedIn copy with attention-grabbing hooks, clean layout spacing, proper emojis, and relevant hashtags.
 2. **AI Visual Creator (Pollinations.ai):** When creating an image post, it uses Google Gemini to write a high-fidelity image prompt, generates the graphic in real-time, caches it locally, and displays it.
@@ -14,7 +14,7 @@ An AI-powered dashboard that generates contextually rich LinkedIn posts, process
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Prerequisites
 - **Node.js:** Ensure Node.js v18 or newer is installed (`node -v`).
@@ -32,7 +32,7 @@ An AI-powered dashboard that generates contextually rich LinkedIn posts, process
 
 ---
 
-## 🚀 Running the Project
+##  Running the Project
 
 1. Run development server (runs with hot reloading using nodemon):
    ```bash
@@ -45,7 +45,7 @@ An AI-powered dashboard that generates contextually rich LinkedIn posts, process
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 - `/public`: Static frontend files (HTML structural grids, glassmorphism styles, controller)
 - `/src/services/geminiService.js`: Integration point for `@langchain/google-genai` and Gemini-2.5-flash
